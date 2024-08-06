@@ -5,7 +5,7 @@ export default function Home() {
   return (
    <div>
     <h2>
-      Welcome to this Website......
+      Welcome to this beautiful Website.!!
       <Button>
        Subscribe
       </Button>
