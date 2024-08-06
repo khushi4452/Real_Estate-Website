@@ -1,12 +1,12 @@
-import React from "react"
-
-function Provider({children}) {
+import React from 'react';
+import Header from "Header"
+function Provider({ children }) {
   return (
     <div>
-        <Header/>
-        {children}
-   </div>
-  )
+      <Header />
+      {children}
+    </div>
+  );
 }
 
-export default Provider 
+export default Provider;
