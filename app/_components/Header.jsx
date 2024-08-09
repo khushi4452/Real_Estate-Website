@@ -13,8 +13,11 @@ const Header = () => {
         <li> Agent Finder </li>
       </ul>
     </div>
-    <div>
-    <Button>Post Your Add</Button>
+    <div  className='flex gap-2'> 
+    <Button className='flex gap-2'>Post Your Add</Button>
+    <Button variant="outline">Login</Button>
+
+
 
     </div>
   </div>
