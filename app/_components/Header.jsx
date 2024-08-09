@@ -1,11 +1,14 @@
-import React from 'react'
 
-function Header() {
+import React from 'react';
+
+const Header = () => {
   return (
     <div>
+      <img src='/Logo.svg' width={150} height={150} alt='Logo' />
+    </div>
+  );
+};
 
-      </div>
-  )
-}
+export default Header;
 
-export default Header
+
